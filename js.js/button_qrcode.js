@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const html5QrCode = new Html5Qrcode("reader");
-    const startButton = document.getElementById('qr-code');
-    const readerDiv = document.getElementById('reader');
+    const startButton = document.getElementById('qr-code'); //pega o elemento com o id "qr-code"
+    const readerDiv = document.getElementById('reader'); //pega o elemento com o id "reader"
     const resultDiv = document.getElementById('result');
 
     startButton.addEventListener('click', () => {

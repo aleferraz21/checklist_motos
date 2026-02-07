@@ -1,12 +1,14 @@
-.button-voltar {
+   #qr-code {
     position: fixed;
-    top: 35px;
-    left: 16px;
+    justify-content: center;
+    top: 80px;
+    left: 43%;
     padding: 8px 12px;
     background-color: rgb(253, 102, 2);
     color: white;
     border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
+    font-family: 'Arial', sans-serif;
     z-index: 1000;
-}
+   }

@@ -5,9 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja Barroso</title>
     <link rel="stylesheet" href="/css/button-voltar.css">
+     <link rel="stylesheet" href="/css/button_qrcode.css">
+    <script src="https://unpkg.com/html5-qrcode"></script>
 </head>
 <body>
-    
+    <div class="button-voltar" onclick="window.history.back()">Voltar</div>
+    <button id="qr-code">Ler QR CODE 📷</button>
+
+<div id="reader" style="width: 300px; display: none;"></div>
+
+<p id="result"></p>
+        
+    </div>
+    <div class="button-voltar" onclick="window.history.back()">Voltar</div>
+
+ <script src="../js.js/button_qrcode.js"></script>
 </body>
 </html>
-<div class="button-voltar" onclick="window.history.back()">Voltar</div>

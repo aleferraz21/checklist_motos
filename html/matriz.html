@@ -3,19 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Barroso</title>
+    <title>MATRIZ </title>
     <link rel="stylesheet" href="/css/button-voltar.css">
+    <link rel="stylesheet" href="/css/button_qrcode.css">
     <script src="https://unpkg.com/html5-qrcode"></script>
+    <link rel="stylesheet" href="/css/aba_de_checklist.css">
 </head>
 <body>
     <div class="button-voltar" onclick="window.history.back()">Voltar</div>
-    <button id="qr-code">Ler QR Code</button>
+    <button id="qr-code"><strong>LER QR CODE 📷</strong></button>
 
 <div id="reader" style="width: 300px; display: none;"></div>
 
 <p id="result"></p>
-        
     </div>
+<div class="checklist-geral">
+    <h3>Checklist Manutenção</h3>
+
+    <div class="checklist-opções">
+        <span class="item-name">PNEUS:</span>
+        <div class="options-group">
+            <label class="option-item">
+                <input type="radio" name="pneus" value="bom"> Bom
+            </label>
+            <label class="option-item">
+                <input type="radio" name="pneus" value="ruim"> Ruim
+            </label>
+        </div>
+    </div>
+
+    <div class="checklist-opções">
+        <span class="item-name">FAROIS :</span>
+        <div class="options-group">
+            <label class="option-item">
+                <input type="radio" name="farois" value="bom"> Bom
+            </label>
+            <label class="option-item">
+                <input type="radio" name="farois" value="ruim"> Ruim
+            </label>
+        </div>
+    </div>
+
+    <div class="checklist-opções">
+        <span class="item-name">PISCAS :</span>
+        <div class="options-group">
+            <label class="option-item">
+                <input type="radio" name="piscas" value="bom"> Bom
+            </label>
+            <label class="option-item">
+                <input type="radio" name="piscas" value="ruim"> Ruim
+            </label>
+        </div>
+    </div>
+
+    <div class="checklist-opções">
+        <span class="item-name">KIT TRANSMISSÃO :</span>
+        <div class="options-group">
+            <label class="option-item">
+                <input type="radio" name="transmissao" value="bom"> Bom
+            </label>
+            <label class="option-item">
+                <input type="radio" name="transmissao" value="ruim"> Ruim
+            </label>
+        </div>
+    </div>
+
+    <div class="checklist-opções">
+        <span class="item-name">RETROVISORES :</span>
+        <div class="options-group">
+            <label class="option-item">
+                <input type="radio" name="retrovisores" value="bom"> Bom
+            </label>
+            <label class="option-item">
+                <input type="radio" name="retrovisores" value="ruim"> Ruim
+            </label>
+        </div>
+    </div>
+
+    <div class="checklist-opções">
+        <span class="item-name">NÍVEL DO ÓLEO :</span>
+        <div class="options-group">
+            <label class="option-item">
+                <input type="radio" name="oleo" value="bom"> Bom
+            </label>
+            <label class="option-item">
+                <input type="radio" name="oleo" value="ruim"> Ruim
+            </label>
+        </div>
+    </div>
+
+    <div class="checklist-opções">
+        <span class="item-name">BAÚ :</span>
+        <div class="options-group">
+            <label class="option-item">
+                <input type="radio" name="bau" value="bom"> Bom
+            </label>
+            <label class="option-item">
+                <input type="radio" name="bau" value="ruim"> Ruim
+            </label>
+        </div>
+    </div>
+
+    <div class="checklist-opções">
+        <span class="item-name">LUZ DE FREIO TRASEIRO :</span>
+        <div class="options-group">
+            <label class="option-item">
+                <input type="radio" name="freio-tras" value="bom"> Bom
+            </label>
+            <label class="option-item">
+                <input type="radio" name="freio-tras" value="ruim"> Ruim
+            </label>
+        </div>
+    </div>
+
+    <div class="checklist-opções">
+        <span class="item-name">LUZ DE FREIO DIANTEIRO:</span>
+        <div class="options-group">
+            <label class="option-item">
+                <input type="radio" name="freio-diant" value="bom"> Bom
+            </label>
+            <label class="option-item">
+                <input type="radio" name="freio-diant" value="ruim"> Ruim
+            </label>
+        </div>
+    </div>
+
+</div>
+
+
+
     <script src="../js.js/button_qrcode.js"></script>
 </body>
 </html>
